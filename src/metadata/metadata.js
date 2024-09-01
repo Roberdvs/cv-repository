@@ -2,7 +2,7 @@ module.exports = {
   name: 'Roberto Devesa Fernández',
   title: 'Platform Engineer',
   facts: {
-    'Residence': '<i class="fa fa-home fact-icon"></i>Gijón',
+    'Residence': '<a href="https://maps.app.goo.gl/XoqR6URHaqseBfuM7"><i class="fa fa-home fact-icon"></i>Asturias, Spain</a>',
     'LinkedIn': '<a href="https://www.linkedin.com/in/roberdvs"><i class="fab fa-linkedin fact-icon"></i>roberdvs</a>',
     'GitHub': '<a href="https://github.com/roberdvs"><i class="fab fa-github fact-icon"></i>roberdvs</a>',
     'Email': '<a href="mailto:roberdvs@gmail.com"><i class="fa fa-envelope fact-icon"></i>roberdvs@gmail.com</a>'

@@ -1,67 +1,70 @@
 module.exports = {
-  name: 'William Shakespeare',
-  title: 'Poet, playwright and actor',
+  name: 'Roberto Devesa Fernández',
+  title: 'Platform Engineer',
   facts: {
-    'Residence': '<a href="https://www.google.com/maps/place/London,+UK/@51.5285582,-0.2416814,11z/data=!3m1!4b1!4m5!3m4!1s0x47d8a00baf21de75:0x52963a5addd52a99!8m2!3d51.5072178!4d-0.1275862"><i class="fa fa-home fact-icon"></i>London</a>',
-    'Wiki': `<a href="https://en.wikipedia.org/wiki/William_Shakespeare">
-                  <i class="fa-brands fa-wikipedia-w fact-icon"></i>William_Shakespeare
-                </a>`,
-    'Twitter': `<a href="https://twitter.com/shakespeare"><i class="fa-brands fa-twitter fact-icon"></i>Shakespeare</a>`,
-    'Email': '<a href="mailto:wil64@yahoo.com"><i class="fa fa-envelope fact-icon"></i>wil64@yahoo.com</a>'
+    'Residence': '<i class="fa fa-home fact-icon"></i>Gijón',
+    'LinkedIn': '<a href="https://www.linkedin.com/in/roberdvs"><i class="fab fa-linkedin fact-icon"></i>roberdvs</a>',
+    'GitHub': '<a href="https://github.com/roberdvs"><i class="fab fa-github fact-icon"></i>roberdvs</a>',
+    'Email': '<a href="mailto:roberdvs@gmail.com"><i class="fa fa-envelope fact-icon"></i>roberdvs@gmail.com</a>'
   },
   skills: [
-    ['Comedy', 100],
-    ['Love', 100],
-    ['Theater', 100],
-    ['Tragedy', 100],
-    ['Poetry', 100],
-    ['Erotic', 60],
-    ['Sonnets', 100],
-    ['Plays', 100],
-    ['Writing', 100],
-    ['Directing', 80],
-    ['Literature', 100],
-    ['Influence', 100],
+    ['Terraform', 100],
+    ['Kubernetes', 100],
+    ['AWS', 100],
+    ['DevOps', 100],
+    ['GitOps', 100]
   ],
   positions: [
     {
-      title: 'Hamlet',
-      period: 'Likely early 17th century',
-      skills: ['tragedy', 'philosophy', 'death'],
+      title: 'Senior Platform Engineer',
+      period: 'Feb 2022 – Present. Remote',
+      skills: ['DevOps', 'Terraform', 'Kubernetes', 'AWS', 'EKS'],
       contents: `
-Prince Hamlet is visited by his father's ghost and ordered to avenge his father's murder by killing King Claudius, his uncle. After struggling with several questions, including whether what the ghost said is true and whether it is right for him to take revenge, Hamlet, along with almost all the other major characters, is killed.
+Continue leading the evolution and roadmap of the Internal Developer Platform, nurturing a team around it as a tech lead while mentoring colleagues and teams on DevOps, SRE, and full-service ownership practices.
+
+I'm currently working on optimizing cloud costs by moving the vast majority of workloads to ARM architecture.
+
+Goals:
+• Optimized infrastructure utilization by migrating from Kubernetes Cluster Autoscaler to Karpenter, reducing costs by 40%.
+• Enhanced API performance and reduced infrastructure costs by collaborating with application teams to implement caching policies in our CDN.
+• Spearheaded the migration from PagerDuty to BetterUptime for incident response.
+• Automated Terraform code quality and security checks using GitHub Actions.
+• Deployed an internal JupyterHub platform to provide Jupyter Notebooks for Data Engineers and Data Scientists.
 `
     },
     {
-      title: 'Twelfth Night',
-      period: '1600 – 1601',
-      skills: ['comedy', 'love'],
+      title: 'Platform Engineer',
+      period: 'Feb 2021 - Feb 2022. Hybrid',
+      skills: ['DevOps', 'Terraform', 'Kubernetes', 'AWS', 'EKS'],
       contents: `
-Viola finds herself shipwrecked in Illyria and, assuming that her brother Sebastian has died in the wreck, disguises herself as a man to gain a position in Duke Orsino's court. Orsino sends Viola (whom he knows as Cesario) to deliver a message to his love, Olivia. Olivia, however, dislikes the Duke. She falls in love with Viola, who she thinks is a man. Eventually, Viola's brother Sebastian, who in fact was unharmed in the wreck, reappears. At a critical moment, Viola's true identity is revealed when members of the court notice the similarities between her and Sebastian. Olivia quickly falls in love with Sebastian, and Viola confesses her love for the Duke.
+As the company grew to +100 engineers, established the formation of the Platform Engineering Team as the next step in our DevOps journey; a team responsible for promoting DevOps practices at scale and addressing cross-cutting concerns by providing application teams with an Internal Developer Platform that they can leverage to develop, deploy and operate their apps in a self-service fashion.
+
+• Led the creation and evolution of the Kubernetes-based Internal Developer Platform, leveraging AWS EKS, IaC and open source tooling like Rancher, ArgoCD, Harbor, Prometheus, Grafana, ElasticSearch... while integrating Single Sign-on + RBAC.
+• Migrated workloads from AWS ECS to AWS EKS, using Helm charts and GitOps practices.
+• Architected and implemented a cloud-agnostic solution for running Big Data Spark Jobs on our Kubernetes platform, leveraging the spark-operator, Argo Workflows, and autoscaling capabilities, migrating from a previous AWS EMR setup and reducing vendor lock-in.
+• Simplified the company's AWS user management by leveraging AWS SSO and integrating Google Workspace as Identity Provider.
+• Improved security posture by integrating AWS WAF.
+• Drove infrastructure cost savings through increased use of spot instances.
+• Developed opinionated Terraform modules with embedded best practices.
+• Led the migration of legacy systems to modern, simpler & more maintainable alternatives, like moving from an in-house VPN solution to Tailscale.
 `
     },
     {
-      title: 'The Tragedy of Romeo and Juliet',
-      period: '1595–1596, with a possible early draft written in 1591',
-      skills: ['tragedy', 'death', 'love'],
+      title: 'DevOps Engineer',
+      period: 'Nov 2016 - Feb 2021',
+      skills: ['DevOps', 'Terraform', 'AWS'],
       contents: `
-In Verona, Italy, two families, the Montagues and the Capulets, are in the midst of a bloody feud. Romeo, a Montague, and Juliet, a Capulet, fall in love and struggle to maintain their relationship in the face of familial hatred. After Romeo kills Juliet's cousin Tybalt in a fit of passion, things fall apart. Both lovers eventually commit suicide within minutes of each other, and the feuding families make peace over their recent grief.
-`
-    }
-  ],
-  experience: [
-    {
-      header: 'Performance',
-      skills: ['theater', 'play'],
-      contents: `
-Thousands of performances of my plays have been staged since the end of the 16th century. Many of my greatest plays were performed by the Lord Chamberlain's Men and King's Men acting companies at the [Globe](https://en.wikipedia.org/wiki/Globe_Theatre) and Blackfriars Theatres.
-`
-    },
-    {
-      header: 'Poetry',
-      skills: ['poetry', 'erotic'],
-      contents: `
-In 1593 and 1594, when the theatres were closed because of plague, I published two narrative poems on sexual themes, Venus and Adonis and The Rape of Lucrece. I dedicated them to Henry Wriothesley, Earl of Southampton.
+Being a small company of ~20 people I used to wear many hats without a clearly defined role and help where I could, ranging from office IT to managing cloud infrastructure and everything in between, but I always gravitated more to DevOps-related tasks from which I'd highlight:
+
+• Migrated from Atlassian Bamboo to Jenkins for Continuous Integration; configuring pipelines as code with reusable libraries among projects.
+• Integrated new tools like SonarQube into the CI/CD process to improve SDLC.
+• Managed cloud resources with Terraform and implemented collaborative IaC workflows using Atlantis.
+• Worked on migrating static websites to simpler, cheaper, and more reliable hosting using S3 + CloudFront.
+• Containerized applications with Docker and orchestrated deployments with AWS ECS.
+• Improved scalability and reliability of backend services by applying SRE practices and leveraging Prometheus, Grafana, and the Elastic Stack.
+• Implemented auto-scaling on our backend services to automatically adjust the capacity based on demand.
+• Played a key role in scaling infrastructure to support high traffic during major events like Black Friday, while reducing the manual steps involved in the process of dealing with subsequent large-scale events.
+• Be part of an on-call rotation, resolving incidents and writing blameless post-mortems, figuring out root causes, and taking action to prevent them from happening again.
 `
     }
   ]

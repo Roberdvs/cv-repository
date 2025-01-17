@@ -22,8 +22,6 @@ module.exports = {
       contents: `
 Continue leading the evolution and roadmap of the Internal Developer Platform, nurturing a team around it as a tech lead while mentoring colleagues and teams on DevOps, SRE, and full-service ownership practices while working on organization-wide challenges.
 
-I'm currently working on optimizing cloud costs by moving the vast majority of workloads to ARM architecture.
-
 • Optimized infrastructure utilization by migrating from Kubernetes Cluster Autoscaler to Karpenter, reducing costs by 40%.
 
 • Enhanced API performance and reduced infrastructure costs by collaborating with application teams to implement caching policies in our CDN.

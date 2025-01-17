@@ -16,15 +16,13 @@ module.exports = {
   ],*/
   positions: [
     {
-      title: 'Senior Platform Engineer',
-      period: 'Feb 2022 – Present. Remote',
+      title: 'Staff Platform Engineer',
+      period: 'Mar 2022 – Present. Remote',
       skills: ['DevOps', 'Terraform', 'Kubernetes', 'AWS', 'EKS'],
       contents: `
-Continue leading the evolution and roadmap of the Internal Developer Platform, nurturing a team around it as a tech lead while mentoring colleagues and teams on DevOps, SRE, and full-service ownership practices.
+Continue leading the evolution and roadmap of the Internal Developer Platform, nurturing a team around it as a tech lead while mentoring colleagues and teams on DevOps, SRE, and full-service ownership practices while working on organization-wide challenges.
 
 I'm currently working on optimizing cloud costs by moving the vast majority of workloads to ARM architecture.
-
-Goals:
 
 • Optimized infrastructure utilization by migrating from Kubernetes Cluster Autoscaler to Karpenter, reducing costs by 40%.
 
@@ -35,11 +33,16 @@ Goals:
 • Automated Terraform code quality and security checks using GitHub Actions.
 
 • Deployed an internal JupyterHub platform to provide Jupyter Notebooks for Data Engineers and Data Scientists.
+
+• Collaborated on designing a versatile solution to serve multiple Large Language Models using LiteLLM, switching seamlessly between them without requiring modifications to applications.
+
+• Helped the team migrate the majority of workloads to ARM architecture for increased cost savings.
+
 `
     },
     {
-      title: 'Platform Engineer',
-      period: 'Feb 2021 - Feb 2022. Hybrid',
+      title: 'Senior Platform Engineer',
+      period: 'Feb 2020 - Mar 2022. Hybrid',
       skills: ['DevOps', 'Terraform', 'Kubernetes', 'AWS', 'EKS'],
       contents: `
 As the company grew to +100 engineers, established the formation of the Platform Engineering Team as the next step in our DevOps journey; a team responsible for promoting DevOps practices at scale and addressing cross-cutting concerns by providing application teams with an Internal Developer Platform that they can leverage to develop, deploy and operate their apps in a self-service fashion.
@@ -63,7 +66,7 @@ As the company grew to +100 engineers, established the formation of the Platform
     },
     {
       title: 'DevOps Engineer',
-      period: 'Nov 2016 - Feb 2021',
+      period: 'Nov 2016 - Feb 2020',
       skills: ['DevOps', 'Terraform', 'AWS'],
       contents: `
 Being a small company of ~20 people I used to wear many hats without a clearly defined role and help where I could, ranging from office IT to managing cloud infrastructure and everything in between, but I always gravitated more to DevOps-related tasks from which I'd highlight:

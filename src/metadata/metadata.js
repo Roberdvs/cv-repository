@@ -30,7 +30,7 @@ module.exports = {
 
 • Automated Terraform code quality and security checks using GitHub Actions.
 
-• Conducted a comprehensive engineering health assessment identifying systemic issues across architecture, delivery, security, and developer experience to support the creation of a remediation roadmap aligned with modern DevOps and engineering practices.Led critical modernization initiatives to evolve Scilife’s engineering practices, infrastructure, and architecture as part of a transformation from a PHP monolith to a cloud-native, scalable platform on Kubernetes. • Introduced Terraform as the standard Infrastructure-as-Code tooling, bringing ~80% of pre-existing cloud infrastructure under version control. Implemented collaborative, auditable workflows using GitHub Actions and Digger. • Consolidated multiple resources under a single AWS Organization, decommissioning redundant infrastructure and reducing cloud spend by 50% over 9 months. • Improved the company’s security posture by migrating workforce access from IAM Users with long-lived credentials to AWS Identity Center integrated with Google Workspace SSO. • Conducted a comprehensive engineering health assessment identifying systemic issues across architecture, delivery, security, and developer experience to support the creation of a remediation roadmap aligned with modern DevOps and engineering practices. 
+• Conducted a comprehensive engineering health assessment identifying systemic issues across architecture, delivery, security, and developer experience to support the creation of a remediation roadmap aligned with modern DevOps and engineering practices.
 
 `
     },

@@ -20,9 +20,9 @@ module.exports = {
       period: 'Nov 2024 – Present. Remote',
       skills: ['DevOps', 'Terraform', 'Kubernetes', 'AWS', 'EKS'],
       contents: `
- Led critical modernization initiatives to evolve Scilife’s engineering practices, infrastructure, and architecture as part of a transformation from a PHP monolith to a cloud-native, scalable platform on Kubernetes.
+  Led critical modernization initiatives to evolve Scilife’s insfrastructure and engineering practices as part of a transformation from a PHP monolith to a cloud-native, scalable platform on Kubernetes.
 
-• Introduced Terraform as the standard Infrastructure-as-Code tooling, bringing ~80% of pre-existing cloud infrastructure under version control. Implemented collaborative, auditable workflows using GitHub Actions and Digger.
+• Infrastructure-as-Code: Introduced Terraform as the standard, bringing ~80% of pre-existing cloud infrastructure under version control. Implemented collaborative, auditable workflows using GitHub Actions and Digger.
 
 • Consolidated multiple resources under a single AWS Organization, decommissioning redundant infrastructure and reducing cloud spend by 50% over 9 months.
 

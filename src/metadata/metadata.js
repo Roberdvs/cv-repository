@@ -16,8 +16,22 @@ module.exports = {
   ],*/
   positions: [
     {
+      title: 'Infrastructure Engineer',
+      period: 'Nov 2024 – Present. Remote',
+      skills: ['DevOps', 'Terraform', 'Kubernetes', 'AWS', 'EKS'],
+      contents: `
+ Led critical modernization initiatives to evolve Scilife’s engineering practices, infrastructure, and architecture as part of a transformation from a PHP monolith to a cloud-native, scalable platform on Kubernetes.
+
+• Introduced Terraform as the standard Infrastructure-as-Code tooling, bringing ~80% of pre-existing cloud infrastructure under version control. Implemented collaborative, auditable workflows using GitHub Actions and Digger.
+• Consolidated multiple resources under a single AWS Organization, decommissioning redundant infrastructure and reducing cloud spend by 50% over 9 months.
+• Improved the company’s security posture by migrating workforce access from IAM Users with long-lived credentials to AWS Identity Center integrated with Google Workspace SSO.
+• Automated Terraform code quality and security checks using GitHub Actions.
+• Conducted a comprehensive engineering health assessment identifying systemic issues across architecture, delivery, security, and developer experience to support the creation of a remediation roadmap aligned with modern DevOps and engineering practices.Led critical modernization initiatives to evolve Scilife’s engineering practices, infrastructure, and architecture as part of a transformation from a PHP monolith to a cloud-native, scalable platform on Kubernetes. • Introduced Terraform as the standard Infrastructure-as-Code tooling, bringing ~80% of pre-existing cloud infrastructure under version control. Implemented collaborative, auditable workflows using GitHub Actions and Digger. • Consolidated multiple resources under a single AWS Organization, decommissioning redundant infrastructure and reducing cloud spend by 50% over 9 months. • Improved the company’s security posture by migrating workforce access from IAM Users with long-lived credentials to AWS Identity Center integrated with Google Workspace SSO. • Conducted a comprehensive engineering health assessment identifying systemic issues across architecture, delivery, security, and developer experience to support the creation of a remediation roadmap aligned with modern DevOps and engineering practices. 
+`
+    },
+    {
       title: 'Staff Platform Engineer',
-      period: 'Mar 2022 – Present. Remote',
+      period: 'Mar 2022 – Nov 2024. Remote',
       skills: ['DevOps', 'Terraform', 'Kubernetes', 'AWS', 'EKS'],
       contents: `
 Continue leading the evolution and roadmap of the Internal Developer Platform, nurturing a team around it as a tech lead while mentoring colleagues and teams on DevOps, SRE, and full-service ownership practices while working on organization-wide challenges.

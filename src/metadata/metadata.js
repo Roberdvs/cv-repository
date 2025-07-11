@@ -68,7 +68,7 @@ As the company grew to +100 engineers, established the formation of the Platform
 
 • Migrated workloads from AWS ECS to AWS EKS, using Helm charts and GitOps practices.
 
-• Architected and implemented a cloud-agnostic solution for running Big Data Spark Jobs on our Kubernetes platform, leveraging the spark-operator, Argo Workflows, and autoscaling capabilities, migrating from a previous AWS EMR setup and reducing vendor lock-in.
+• Designed and implemented a cloud-agnostic solution for running Big Data Spark Jobs on our Kubernetes platform, leveraging the spark-operator, Argo Workflows, and autoscaling capabilities, migrating from a previous AWS EMR setup and reducing vendor lock-in.
 
 • Simplified the company's AWS user management by leveraging AWS SSO and integrating Google Workspace as Identity Provider.
 

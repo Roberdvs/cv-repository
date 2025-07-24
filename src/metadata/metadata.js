@@ -28,8 +28,6 @@ module.exports = {
 
 • Improved the company’s security posture by migrating workforce access from IAM Users with long-lived credentials to AWS Identity Center integrated with Google Workspace SSO.
 
-• Automated Terraform code quality and security checks using GitHub Actions.
-
 • Conducted a comprehensive engineering health assessment identifying systemic issues across architecture, delivery, security, and developer experience to support the creation of a remediation roadmap aligned with modern DevOps and engineering practices.
 
 `

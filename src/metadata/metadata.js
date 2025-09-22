@@ -20,15 +20,15 @@ module.exports = {
       period: 'Nov 2024 – Present. Remote',
       skills: ['DevOps', 'Terraform', 'Kubernetes', 'AWS', 'EKS'],
       contents: `
-  Led critical modernization initiatives to evolve Scilife’s insfrastructure and engineering practices as part of a transformation from a PHP monolith to a cloud-native, scalable platform on Kubernetes.
+  Led critical modernization initiatives to evolve Scilife’s infrastructure and engineering practices as part of a transformation from a PHP monolith to a cloud-native, scalable platform on Kubernetes.
 
-• Infrastructure-as-Code: Introduced Terraform as the standard, bringing ~80% of pre-existing cloud infrastructure under version control. Implemented collaborative, auditable workflows using GitHub Actions and Digger.
+• Introduced Infrastructure-as-Code practices using Terraform/OpenTofu, bringing ~80% of pre-existing cloud infrastructure under version control. Implemented IaC automation and collaborative workflows using GitHub Actions and Digger.
 
-• Consolidated multiple resources under a single AWS Organization, decommissioning redundant infrastructure and reducing cloud spend by 50% over 9 months.
+• Reduced cloud spend by 50% over 9 months by consolidating multiple resources under a single AWS Organization and decommissioning redundant infrastructure.
 
-• Improved the company’s security posture by migrating workforce access from IAM Users with long-lived credentials to AWS Identity Center integrated with Google Workspace SSO.
+• Improved the company’s security posture and governance by migrating 100% of workforce access from IAM Users with long-lived credentials to AWS Identity Center integrated with Google Workspace SSO.
 
-• Conducted a comprehensive engineering health assessment identifying systemic issues across architecture, delivery, security, and developer experience to support the creation of a remediation roadmap aligned with modern DevOps and engineering practices.
+• Conducted a comprehensive Engineering Health Assessment identifying systemic issues across architecture, delivery, security, and developer experience to support the creation of a remediation roadmap aligned with modern DevOps and engineering practices.
 
 `
     },

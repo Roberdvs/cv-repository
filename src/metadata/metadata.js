@@ -98,9 +98,9 @@ Being a small company of ~20 people I used to wear many hats without a clearly d
 
 • Improved scalability and reliability of backend services by applying SRE practices and leveraging Prometheus, Grafana, and the Elastic Stack.
 
-• Implemented auto-scaling on our backend services to automatically adjust the capacity based on demand.
+• Implemented auto-scaling policies on backend services to automatically adjust capacity automatically based on demand.
 
-• Played a key role in scaling infrastructure to support high traffic during major events like Black Friday, while reducing the manual steps involved in the process of dealing with subsequent large-scale events.
+• Played a key role in scaling infrastructure to support high traffic during major events like Black Friday, while reducing toil for dealing with subsequent large-scale events.
 
 • Be part of an on-call rotation, resolving incidents and writing blameless post-mortems, figuring out root causes, and taking action to prevent them from happening again.
 `
